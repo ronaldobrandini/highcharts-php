@@ -1,0 +1,19 @@
+{
+    "name": "rony/highcharts-php",
+    "type": "library",
+    "license": "MIT",
+    "description": "",
+    "authors": [
+        {"name": "Ronaldo Silva", "email": "rony.praise@gmail.com"}
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "HighCharts\\": "lib/",
+            "Exception\\": "Exception/",
+            "HighCharts\\PlotOptions\\": "PlotOptions/"
+        }
+    }
+}
