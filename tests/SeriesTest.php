@@ -26,7 +26,7 @@ class SeriesTest extends \PHPUnit_Framework_TestCase
             ),
             array(
                 'name' => 'Restante',
-                'data' => [12.884, 14.55, 18.36, 18.41],
+                'data' => array(12.884, 14.55, 18.36, 18.41),
                 'color' => '#3d9970'
             )
         );
