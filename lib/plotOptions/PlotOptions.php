@@ -2,7 +2,7 @@
 
 namespace HighCharts\PlotOptions;
 
-abstract class PlotOptions extends \core\tools\highchart\Output{
+abstract class PlotOptions extends \HighCharts\Output{
 
     protected $definitions = array(
         'allowPointSelect' => array(
